@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "NewsBlaze",
+    "slug": "NewsBlaze",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/download (1).jpeg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/download (1).jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#100E34"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/download (1).jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.onesmus509.NewsBlaze"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/download (1).jpeg"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ab0eaa65-bf9c-4c48-88aa-4c1905dfcb93"
+      }
+    }
+  }
+}
